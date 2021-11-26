@@ -817,12 +817,14 @@ public class GUI extends JFrame implements ActionListener, ViewerDelegate, Genet
      */
     public static void main(String[] args) {
     	   try {
+			   GUI gui = new GUI();
+			   gui.createAndShowGUI();
     	        //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
     	      } catch (Exception e) {
     	        e.printStackTrace();
     	      }
-    	SplashScreen splashScreen = new SplashScreen ("/images/hugo_logo.png");
-    	splashScreen.open (4500);
+    	//SplashScreen splashScreen = new SplashScreen ("images/hugo_logo.png");
+    	//splashScreen.open (4500);
     }
 
 	/* (non-Javadoc)
