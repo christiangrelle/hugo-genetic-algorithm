@@ -990,126 +990,126 @@ public class GUI extends JFrame implements ActionListener, ViewerDelegate, Genet
 		//keyboard
 		if(src == fBut) {
 			if(cubeViewers[viewerId].showMove(2,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(0));
+			cubeViewers[viewerId].scrambleSequence.add(0);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == uBut) {
 			if(cubeViewers[viewerId].showMove(1,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(1));
+			cubeViewers[viewerId].scrambleSequence.add(1);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == rBut) {
 			if(cubeViewers[viewerId].showMove(3,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(2));
+			cubeViewers[viewerId].scrambleSequence.add(2);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == bBut) {
 			if(cubeViewers[viewerId].showMove(5,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(3));
+			cubeViewers[viewerId].scrambleSequence.add(3);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == dBut) {
 			if(cubeViewers[viewerId].showMove(4,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(4));
+			cubeViewers[viewerId].scrambleSequence.add(4);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == lBut) {
 			if(cubeViewers[viewerId].showMove(0,1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(5));
+			cubeViewers[viewerId].scrambleSequence.add(5);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == f2But) {
 			if(cubeViewers[viewerId].showMove(2,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(6));
+			cubeViewers[viewerId].scrambleSequence.add(6);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == u2But) {
 			if(cubeViewers[viewerId].showMove(1,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(7));
+			cubeViewers[viewerId].scrambleSequence.add(7);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}	
 		if(src == r2But) {
 			if(cubeViewers[viewerId].showMove(3,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(8));
+			cubeViewers[viewerId].scrambleSequence.add(8);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == b2But) {
 			if(cubeViewers[viewerId].showMove(5,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(9));
+			cubeViewers[viewerId].scrambleSequence.add(9);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}	
 		if(src == d2But) {
 			if(cubeViewers[viewerId].showMove(4,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(10));
+			cubeViewers[viewerId].scrambleSequence.add(10);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == l2But) {
 			if(cubeViewers[viewerId].showMove(0,2)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(11));
+			cubeViewers[viewerId].scrambleSequence.add(11);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == faBut) {
 			if(cubeViewers[viewerId].showMove(2,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(12));
+			cubeViewers[viewerId].scrambleSequence.add(12);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == uaBut) {
 			if(cubeViewers[viewerId].showMove(1,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(13));
+			cubeViewers[viewerId].scrambleSequence.add(13);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == raBut) {
 			if(cubeViewers[viewerId].showMove(3,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(14));
+			cubeViewers[viewerId].scrambleSequence.add(14);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == baBut) {
 			if(cubeViewers[viewerId].showMove(5,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(15));
+			cubeViewers[viewerId].scrambleSequence.add(15);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == daBut) {
 			if(cubeViewers[viewerId].showMove(4,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(16));
+			cubeViewers[viewerId].scrambleSequence.add(16);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
 		}
 		if(src == laBut) {
 			if(cubeViewers[viewerId].showMove(0,-1)){
-			cubeViewers[viewerId].scrambleSequence.add(new Integer(17));
+			cubeViewers[viewerId].scrambleSequence.add(17);
 			cubeViewers[viewerId].delegate.scramblePerformed((Integer) cubeViewers[viewerId].scrambleSequence.lastElement());
 			enableControls3(false);
 			}
